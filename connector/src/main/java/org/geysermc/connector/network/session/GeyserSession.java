@@ -256,7 +256,7 @@ public class GeyserSession implements CommandSender {
      * As all entities are in the same world, this can be safely applied to all other entities.
      */
     @Setter
-    private String dimension = DimensionUtils.OVERWORLD;
+    private String dimension = DimensionUtils.END;
 
     @Setter
     private int breakingBlock;
